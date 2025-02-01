@@ -2,6 +2,7 @@
   "name": "node-ts-starter",
   "version": "1.0.0",
   "description": "A starter for the Node.js project with TypeScript and pnpm",
+  "packageManager": "pnpm@9.15.4",
   "main": "build/index.js",
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   ],
   "author": "nodm",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",
