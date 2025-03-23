@@ -31,6 +31,7 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",
     "gts": "^6.0.2",
