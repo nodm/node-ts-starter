@@ -1,1 +1,1 @@
-export {getEnvVariable} from './getEnvVariable';
+export {getEnvVariable} from './getEnvVariable.ts';

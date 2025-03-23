@@ -1,4 +1,4 @@
-import {getEnvVariable} from './utils';
+import {getEnvVariable} from './utils/index.ts';
 
 const defaultName = getEnvVariable('NAME', false);
 
