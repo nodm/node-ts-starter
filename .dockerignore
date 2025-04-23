@@ -1,18 +1,37 @@
+# Build artifacts
 build
 node_modules
-npm-debug.log
+*.log
+coverage
+.nyc_output
+tsconfig.tsbuildinfo
+
+# VCS
 .git
+.github
 .gitignore
-Dockerfile
-.dockerignore
-docker-compose.yml
+
+# Development configs
 .vscode
+.idea
 .editorconfig
-.env*
 .eslint*
 .nvmrc
 .prettierrc.cjs
-.jest.config.cjs
-README.md
-CHANGELOG.md
-tsconfig.tsbuildinfo
+jest.config.cjs
+
+# Environment
+.env*
+!.env.example
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*
+
+# Documentation
+*.md
+!README.md
+
+# OS
+.DS_Store
