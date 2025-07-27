@@ -1,6 +1,7 @@
 import 'dotenv/config';
 
 export function getEnvVariable(key: string): string;
+export function getEnvVariable(key: string, isOptional: false): string;
 export function getEnvVariable(key: string, isOptional: true): string | undefined;
 export function getEnvVariable(key: string, isOptional = false): string | undefined {
   if (!isOptional && !Object.prototype.hasOwnProperty.call(process.env, key)) {
